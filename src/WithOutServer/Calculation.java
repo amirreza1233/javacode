@@ -1,7 +1,7 @@
-
 package WithOutServer;
 
 public class Calculation {
+
     private String fuel;
     private double MPG;
     private double distance;
@@ -45,9 +45,8 @@ public class Calculation {
     public void setPriceOfFuel(double priceOfFuel) {
         this.priceOfFuel = priceOfFuel;
     }
-    
-    public double quickMaths(){
-        return Math.round(((this.distance/this.MPG)*4.546)*this.priceOfFuel*100.0)/100.0;
-    } 
-}
 
+    public double quickMaths() {
+        return Math.round(((this.distance / this.MPG) * 4.546) * this.priceOfFuel * 100.0) / 100.0;
+    }
+}
