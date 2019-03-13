@@ -1,0 +1,4 @@
+Distance: 100.0
+MPG: 100.0
+PriceOfFuel: 1.05
+Final Price: £4.77
